@@ -3,12 +3,9 @@
 **(1) Markdown Pricing Linear Optimization with Pyomo package**
 
 Solve a linear pricing optimization model for 200 products in a given week to determine a pricing plan, and get:
-
-a. The optimized pricing plan (weeks at each price)
-
-b. Revenue projection
-
-c. The current price according to the optimized pricing plan
+- The optimized pricing plan (weeks at each price)
+- Revenue projection
+- The current price according to the optimized pricing plan
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/1_Markdown%20Pricing%20Linear%20Optimization.ipynb
 
@@ -30,8 +27,8 @@ https://github.com/shihyuanwang/Optimization_usingPython/blob/main/3_DC%20Locati
 **(4) Vehicle Routing Problem with Google’s OR-Tools** (https://developers.google.com/optimization/routing/vrp)
 
 Solve the vehicle routing problem for the dataset on branch locations in Canada for a medium sized business. The travel time matrix is provided in the file "P5_VRPtraveltimes.xlsx." Please assume:
-a. 6 vehicles
-b. The vehicles start and end their route at location "T5B 0S1"
+- 6 vehicles
+- The vehicles start and end their route at location "T5B 0S1"
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/4a_Vehicle%20Routing%20Problem%20.ipynb
 
@@ -65,19 +62,15 @@ The “cust info” sheet contains information about the customer subscriber bas
 **Part 1.** The Base Integer Program Formulation
 
 Solve the problem in Python as an integer program according to the following guidelines:
-
-a. Assume the objective is to maximize the total expected margin minus the cost of the samples for the next round of boxes.
-
-b. 5 items need to be sent to each customer.
-
-c. You can’t run out of inventory.
-
-d. You can’t send a customer a sample they’ve already received.
+- Assume the objective is to maximize the total expected margin minus the cost of the samples for the next round of boxes.
+- 5 items need to be sent to each customer.
+- You can’t run out of inventory.
+- You can’t send a customer a sample they’ve already received.
 
 \
 **Part 2.** Next Month’s Revenue with Zero Replenishment
 
-a. Imagine that Birchbox failed to source any new samples next month – so they must make new assortments but also cannot send customers what they just sent them this month. 
+- Imagine that Birchbox failed to source any new samples next month – so they must make new assortments but also cannot send customers what they just sent them this month. 
 Solve next month’s problem in this scenario. How much profit should they expect?
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/5_Personalized%20Assortment%20Optimization.ipynb
