@@ -24,7 +24,7 @@ Consider data from a manufacturer who distributes nationwide. They are now decid
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/3_DC%20Location%20and%20Transportation_Mixed%20Integer%20Optimization.ipynb
 
 \
-**(4) Vehicle Routing Problem with Google’s OR-Tools** (https://developers.google.com/optimization/routing/vrp)
+**(4a) Vehicle Routing Problem with Google’s OR-Tools** (https://developers.google.com/optimization/routing/vrp)
 
 Solve the vehicle routing problem for the dataset on branch locations in Canada for a medium sized business. The travel time matrix is provided in the file "P5_VRPtraveltimes.xlsx." Please assume:
 - 6 vehicles
@@ -33,19 +33,19 @@ Solve the vehicle routing problem for the dataset on branch locations in Canada 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/4a_Vehicle%20Routing%20Problem%20.ipynb
 
 \
-**(5) Job Shop Problem with Google’s OR-Tools** (https://developers.google.com/optimization/scheduling/job_shop)
+**(4b) Job Shop Problem with Google’s OR-Tools** (https://developers.google.com/optimization/scheduling/job_shop)
 
 Solve the job shop problem for the data provided in "P5_JobShopData.xlsx."
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/4b_Job%20Shop%20Problem.ipynb
 
 \
-**(6) Personalized Assortment Optimization at Birchbox**
+**(5) Personalized Assortment Optimization at Birchbox**
 
 The subscription box retail business model has been one of the fastest growing parts of e-commerce in the past decade. This problem is inspired by the beauty subscription box
 company Birchbox (see https://www.birchbox.com/). Subscribers pay a fixed fee to receive a monthly package of 5 samples of beauty products. They then have the option to purchase the items they like most. At the heart of Birchbox’s business model is their personalized assortment algorithm – how do we decide which five samples to send to each customer every month?
 
-The file “Birchboxdata2020.xlsx” contains 2 sheets. The “item info” sheet contains information about the samples Birchbox has in stock:
+The file "Birchboxdata2020.xlsx" contains 2 sheets. The “item info” sheet contains information about the samples Birchbox has in stock:
 - Item – an index number for the SKU
 - Category – an integer denoting the type of sample (lotion, cleanser,…etc)
 - Inventory – the number of sample units available to ship this month
