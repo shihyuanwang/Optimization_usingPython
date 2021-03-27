@@ -1,4 +1,4 @@
-# Optimization using Python
+# Optimization using Python with Pyomo package or Google’s OR-Tools
 
 (1) Markdown Pricing Linear Optimization with Pyomo package
 
@@ -33,4 +33,12 @@ b. The vehicles start and end their route at location "T5B 0S1"
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/4a_Vehicle%20Routing%20Problem%20.ipynb
 
 \
-(5)
+(5) Job Shop Problem with Google’s OR-Tools (https://developers.google.com/optimization/scheduling/job_shop)
+
+Solve the job shop problem for the data provided in "P5_JobShopData.xlsx."
+
+https://github.com/shihyuanwang/Optimization_usingPython/blob/main/4b_Job%20Shop%20Problem.ipynb
+
+\
+(6) 
+
