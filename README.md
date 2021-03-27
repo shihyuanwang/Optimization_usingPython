@@ -12,7 +12,7 @@ https://github.com/shihyuanwang/Optimization_usingPython/blob/main/1_Markdown%20
 \
 (2) Minimum Cost Network Optimization with Google’s OR-Tools
  
-Solve the assignment problem using a minimum cost network flow solver (https://developers.google.com/optimization/flow/assignment_min_cost_flow Copy)
+Solve the assignment problem using a minimum cost network flow solver (https://developers.google.com/optimization/flow/assignment_min_cost_flow)
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/2_Minimum%20Cost%20Network%20Optimization.ipynb
 
