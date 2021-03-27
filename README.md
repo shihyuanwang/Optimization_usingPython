@@ -40,5 +40,32 @@ Solve the job shop problem for the data provided in "P5_JobShopData.xlsx."
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/4b_Job%20Shop%20Problem.ipynb
 
 \
-(6) 
+(6) Personalized Assortment Optimization at Birchbox
+
+The subscription box retail business model has been one of the fastest growing parts of e-commerce in the past decade. This problem is inspired by the beauty subscription box
+company Birchbox (see https://www.birchbox.com/). Subscribers pay a fixed fee to receive a monthly package of 5 samples of beauty products. They then have the option to purchase the items they like most. At the heart of Birchbox’s business model is their personalized assortment algorithm – how do we decide which five samples to send to each customer every month?
+
+The file “Birchboxdata2020.xlsx” contains 2 sheets. The “item info” sheet contains information about the samples Birchbox has in stock:
+- Item – an index number for the SKU
+- Category – an integer denoting the type of sample (lotion, cleanser,…etc)
+- Inventory – the number of sample units available to ship this month
+- Sample cost – the cost to send the sample
+- Margin if purchase – the profit if a customer decides to purchase the sample product.
+- PurchaseProb_X – the output of the proprietary prediction model that predicts the probability of purchase for a customer in segment X.
+
+The “cust info” sheet contains information about the customer subscriber base:
+- Cust – an index number for the customer
+- Seg – the segment number to be used to determine the purchase probability
+- Item X – a binary indicator for each item, where a 1 indicates that the customer has already received that sample in the past.
+
+Part 1. The Base Integer Program Formulation
+Solve the problem in Python as an integer program according to the following guidelines:
+a. Assume the objective is to maximize the total expected margin minus the cost of the samples for the next round of boxes.
+b. 5 items need to be sent to each customer.
+c. You can’t run out of inventory.
+d. You can’t send a customer a sample they’ve already received.
+
+Part 2. Next Month’s Revenue with Zero Replenishment
+a. Imagine that Birchbox failed to source any new samples next month – so they must make new assortments but also cannot send customers what they just sent them this month. 
+Solve next month’s problem in this scenario. How much profit should they expect?
 
