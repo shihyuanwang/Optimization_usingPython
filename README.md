@@ -59,6 +59,7 @@ The “cust info” sheet contains information about the customer subscriber bas
 - Item X – a binary indicator for each item, where a 1 indicates that the customer has already received that sample in the past.
 
 Part 1. The Base Integer Program Formulation
+
 Solve the problem in Python as an integer program according to the following guidelines:
 a. Assume the objective is to maximize the total expected margin minus the cost of the samples for the next round of boxes.
 b. 5 items need to be sent to each customer.
@@ -66,6 +67,7 @@ c. You can’t run out of inventory.
 d. You can’t send a customer a sample they’ve already received.
 
 Part 2. Next Month’s Revenue with Zero Replenishment
+
 a. Imagine that Birchbox failed to source any new samples next month – so they must make new assortments but also cannot send customers what they just sent them this month. 
 Solve next month’s problem in this scenario. How much profit should they expect?
 
