@@ -3,8 +3,11 @@
 **(1) Markdown Pricing Linear Optimization with Pyomo package**
 
 Solve a linear pricing optimization model for 200 products in a given week to determine a pricing plan, and get:
+
 a. The optimized pricing plan (weeks at each price)
+
 b. Revenue projection
+
 c. The current price according to the optimized pricing plan
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/1_Markdown%20Pricing%20Linear%20Optimization.ipynb
@@ -58,6 +61,7 @@ The “cust info” sheet contains information about the customer subscriber bas
 - Seg – the segment number to be used to determine the purchase probability
 - Item X – a binary indicator for each item, where a 1 indicates that the customer has already received that sample in the past.
 
+\
 Part 1. The Base Integer Program Formulation
 
 Solve the problem in Python as an integer program according to the following guidelines:
@@ -70,10 +74,10 @@ c. You can’t run out of inventory.
 
 d. You can’t send a customer a sample they’ve already received.
 
+\
 Part 2. Next Month’s Revenue with Zero Replenishment
 
 a. Imagine that Birchbox failed to source any new samples next month – so they must make new assortments but also cannot send customers what they just sent them this month. 
-
 Solve next month’s problem in this scenario. How much profit should they expect?
 
 https://github.com/shihyuanwang/Optimization_usingPython/blob/main/5_Personalized%20Assortment%20Optimization.ipynb
